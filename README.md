@@ -9,7 +9,11 @@ Extracts of underlying survey data can be created here: https://www.bls.gov/nls/
 
 # Program Organization
 
-The analysis was conducted using Stata 15.1. The code is organized by the file DavisMazumder2020.do which calls separate programs to create each table and figure. The data is contained in the file DavisMazumderData.dta (or DavisMazumderData.csv).
+The analysis was conducted using Stata 15.1. The code is organized by the file DavisMazumder2020.do which calls separate programs to create each table and figure. 
+
+The data is contained in the file DavisMazumderData.dta (or DavisMazumderData.csv). 
+
+The file weight_adjustments.dta (or weight_adjustments.csv) include the scaling factors used to re-weight the sample to better match income distributions from the Current Population Survey. This dataset is created by running crCPSextract.do and then figure_4.do, but requires downloading additional, publicly available Current Population Survey data. We downloaded this data here: https://data.nber.org/data/current-population-survey-data.html. 
 
 # Variable Descriptions
 
