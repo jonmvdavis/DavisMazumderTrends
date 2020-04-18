@@ -9,7 +9,7 @@ Extracts of underlying survey data can be created here: https://www.bls.gov/nls/
 
 # Program Organization
 
-The analysis was conducted using Stata 15.1. The code is organized by the file DavisMazumder2020.do which calls separate programs to create each table and figure. 
+The analysis was conducted using Stata 15.1. The code is organized by the file DavisMazumder2020.do which calls separate programs to create each table and figure. The data is contained in the file DavisMazumderData.dta (or DavisMazumderData.csv).
 
 # Variable Descriptions
 
